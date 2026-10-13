@@ -1,6 +1,6 @@
 {
-  "name": "actions-goveralls",
-  "version": "1.11.1",
+  "name": "@step-security/actions-goveralls",
+  "version": "1.11.2",
   "private": true,
   "description": "Coveralls GitHub Action with Go integration powered by mattn/goveralls",
   "main": "dist/index.js",
@@ -23,11 +23,12 @@
     "go"
   ],
   "author": "step-security",
+  "publisher": "step-security",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^3.0.1",
     "@actions/exec": "^3.0.0",
-    "axios": "^1.19.0"
+    "axios": "^1.20.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^29.0.3",
@@ -39,9 +40,17 @@
     "jest": "^30.4.2",
     "prettier": "^3.9.6",
     "rimraf": "^6.1.3",
-    "rollup": "^4.62.4",
+    "rollup": "^4.62.5",
     "ts-jest": "^29.4.12",
     "ts-jest-resolver": "^2.0.1",
     "typescript": ">=6.0.3"
+  },
+  "homepage": "https://github.com/step-security/actions-goveralls#readme",
+  "bugs": {
+    "url": "https://github.com/step-security/actions-goveralls/issues"
+  },
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11"
   }
 }
